@@ -1,0 +1,278 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap');
+
+
+*{
+    /* background-color: plum; */
+    /* margin-left: 35px;
+    margin-right: 35px; */
+     /* box-sizing: border-box; */
+}
+
+
+.header{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+    
+}
+
+#headertext{
+    border: 4px;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: antiquewhite;   
+}
+
+
+#input{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+
+}
+
+#submit{
+    font-family: 'Silkscreen', cursive;
+    background-color: antiquewhite;
+    border: 4px;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#submit:hover{
+    border: 4px;
+    border-style:dashed;
+    border-color: black;
+    background-color:rgb(179, 119, 179);
+
+}
+
+
+#eggselector{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+}
+
+#egg1{
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+    cursor: pointer;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: black;
+    border-radius: 10px;
+   
+
+}
+
+
+#egg2{
+   
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+    cursor: pointer;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: black;
+    border-radius: 10px;
+}
+    
+
+
+#egg3{
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+    cursor: pointer;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: black;
+    border-radius: 10px;
+}
+
+
+#egg1:hover{
+    transform: scale(1.2);
+
+}
+
+#egg2:hover{
+    transform: scale(1.2);
+
+}
+
+#egg3:hover{
+    transform: scale(1.2);
+
+}
+
+.eggtitle{
+    font-family: 'Silkscreen', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+
+.btnlayout{
+    font-family: 'Silkscreen', cursive;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.button1{
+    border: 4px;
+    border-style: dashed;
+    border-radius: 10px;
+    font-family: 'Silkscreen', cursive;
+    background-color: antiquewhite;
+    font-size: 25px;
+
+
+}
+.button2{
+    border: 4px;
+    border-style: dashed;
+    border-radius: 10px;
+
+    font-family: 'Silkscreen', cursive;
+    background-color: antiquewhite;
+    font-size: 25px;
+}
+.button3{
+    border: 4px;
+    border-style: dashed;
+    border-radius: 10px;
+
+    font-family: 'Silkscreen', cursive;
+    background-color: antiquewhite;
+    font-size: 25px;
+
+}
+.button4{
+    border: 4px;
+    border-style: dashed;
+    border-radius: 10px;
+
+    font-family: 'Silkscreen', cursive;
+    background-color: antiquewhite;
+    font-size: 25px;
+
+}
+.button5{
+    border: 4px;
+    border-style: dashed;
+    border-radius: 10px;
+
+    font-family: 'Silkscreen', cursive;
+    background-color: antiquewhite;
+    font-size: 25px;
+
+}
+.button6{
+    border: 4px;
+    border-style: dashed;
+    border-radius: 10px;
+
+    font-family: 'Silkscreen', cursive;
+    background-color: antiquewhite;
+    font-size: 25px;
+
+}
+
+.button1:hover{
+    border: 4px;
+    border-style:dashed;
+    border-color: black;
+    background-color:rgb(179, 119, 179);
+
+}
+
+.button2:hover{
+    border: 4px;
+    border-style:dashed;
+    border-color: black;
+    background-color:rgb(179, 119, 179);
+
+}
+
+.button3:hover{
+    border: 4px;
+    border-style:dashed;
+    border-color: black;
+    background-color:rgb(179, 119, 179);
+
+}
+
+.button4:hover{
+    border: 4px;
+    border-style:dashed;
+    border-color: black;
+    background-color:rgb(179, 119, 179);
+
+}
+
+.button5:hover{
+    border: 4px;
+    border-style:dashed;
+    border-color: black;
+    background-color:rgb(179, 119, 179);
+
+}
+
+.button6:hover{
+    border: 4px;
+    border-style:dashed;
+    border-color: black;
+    background-color:rgb(179, 119, 179);
+
+}
+
+.bgimg {
+    /* background-image: url('frogpond.gif'); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* height: 100%; */
+}
+
+#sealPlacement {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 250px;
+}
