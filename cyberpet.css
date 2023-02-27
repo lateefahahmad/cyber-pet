@@ -278,3 +278,30 @@
 }
 
 
+#statLevels {
+font-size: 25px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-left: 50px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: absolute;
+bottom: 60%;
+display: flex;
+letter-spacing: .2rem;
+
+
+
+}
+ 
+#hungry {
+    padding-bottom: 290px;
+}
+
+/* .levels {
+    font: 50px;
+} */
+
+#seal {
+    display: flex;
+}
